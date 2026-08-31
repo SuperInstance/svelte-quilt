@@ -1,0 +1,21 @@
+{
+  "name": "svelte-quilt",
+  "private": true,
+  "version": "0.1.0",
+  "type": "module",
+  "description": "The quilt reactive substrate, expressed in pure Svelte 5 runes — the compiler IS the wavefront.",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "vitest run",
+    "test:watch": "vitest"
+  },
+  "devDependencies": {
+    "@sveltejs/vite-plugin-svelte": "^5.1.0",
+    "jsdom": "^26.1.0",
+    "svelte": "^5.35.0",
+    "vite": "^6.3.5",
+    "vitest": "^3.1.4"
+  }
+}
